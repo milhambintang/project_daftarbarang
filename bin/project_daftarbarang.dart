@@ -1,3 +1,5 @@
+import 'package:project_daftarbarang/project_daftarbarang.dart' as project_daftarbarang;
+import'dart:io';
 void main() {
   List<Map<String, dynamic>> daftarBarang = [
     {'nama': 'Pensil', 'harga': 2000},
