@@ -21,4 +21,10 @@ void main() {
   var barang = daftarBarang[pilihan - 1];
   int total = barang['harga'] * jumlah;
 
+  print('\n=== Struk Pembelian ===');
+  print('Barang: ${barang['nama']}');
+  print('Jumlah: $jumlah');
+  print('Total: Rp$total');
+  print('=======================');
+
 }
